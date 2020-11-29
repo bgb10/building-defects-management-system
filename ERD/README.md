@@ -1,6 +1,6 @@
 # ERD explaination
 
-[이곳](https://raw.githack.com/bgb10/building-defects-management-system/master/ERD.html) 을 통해 ERD를 확인하실 수 있습니다.
+[이곳](http://htmlpreview.github.io/?https://github.com/bgb10/building-defects-management-system/blob/master/ERD/ERD.html) 을 통해 ERD를 확인하실 수 있습니다.
 
 ## entity sets
 
