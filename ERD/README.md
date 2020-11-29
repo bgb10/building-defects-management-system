@@ -1,5 +1,7 @@
 # ERD explaination
 
+[이곳]() 을 통해 ERD를 확인하실 수 있습니다.
+
 ## entity sets
 
 ### entity / 세대_정보
