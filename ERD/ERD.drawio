@@ -1,6 +1,6 @@
-<mxfile host="65bd71144e" modified="2020-11-29T12:56:12.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="Iw7j35lFKJ--sUsE8hRW" version="13.6.5">
+<mxfile host="65bd71144e" modified="2020-11-29T13:08:05.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="tSbTsXVxJpF1BEV_sd7Q" version="13.6.5">
     <diagram id="_rYbbTQPsh8oONCm1FYp" name="Page-1">
-        <mxGraphModel dx="1982" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1166" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -50,7 +50,7 @@
                     <mxGeometry x="1" relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="입주민" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;perimeterSpacing=1;swimlaneFillColor=none;glass=0;comic=0;moveCells=0;perimeter=rectanglePerimeter;container=0;treeFolding=0;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="40" width="160" height="146" as="geometry">
+                    <mxGeometry x="440" y="40" width="160" height="180" as="geometry">
                         <mxRectangle x="440" y="40" width="70" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -63,8 +63,8 @@
                 <mxCell id="56" value="{전화번호}" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="53">
                     <mxGeometry y="86" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="102" value="입주민 등록일" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="53">
-                    <mxGeometry y="116" width="160" height="30" as="geometry"/>
+                <mxCell id="102" value="입주민 등록일&#10;     년&#10;     월&#10;     일&#10;&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="53">
+                    <mxGeometry y="116" width="160" height="64" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="44">
                     <mxGeometry relative="1" as="geometry">
@@ -80,23 +80,31 @@
                 </mxCell>
                 <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="93">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="520" y="190" as="targetPoint"/>
+                        <mxPoint x="520" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="430" y="250"/>
+                            <mxPoint x="520" y="250"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="93" value="입주민_대표" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;shadow=0;glass=0;comic=0;sketch=0;strokeColor=#f0f0f0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="370" y="270" width="120" height="86" as="geometry">
+                    <mxGeometry x="370" y="270" width="120" height="114" as="geometry">
                         <mxRectangle x="370" y="270" width="110" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="94" value="대표 동" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="93">
-                    <mxGeometry y="26" width="120" height="30" as="geometry"/>
+                    <mxGeometry y="26" width="120" height="24" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="대표 만기일" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="93">
-                    <mxGeometry y="56" width="120" height="30" as="geometry"/>
+                <mxCell id="95" value="대표 만기일&#10;     년&#10;     월&#10;     일" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="93">
+                    <mxGeometry y="50" width="120" height="64" as="geometry"/>
                 </mxCell>
                 <mxCell id="108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="97">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="520" y="190" as="targetPoint"/>
+                        <mxPoint x="520" y="220" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="610" y="250"/>
+                            <mxPoint x="520" y="250"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="97" value="입주민_일반" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;shadow=0;glass=0;comic=0;sketch=0;strokeColor=#f0f0f0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
@@ -107,44 +115,45 @@
                 <mxCell id="182" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="114" target="180">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="530" y="410"/>
-                            <mxPoint x="530" y="360"/>
+                            <mxPoint x="520" y="440"/>
+                            <mxPoint x="520" y="360"/>
                             <mxPoint x="690" y="360"/>
-                            <mxPoint x="690" y="245"/>
+                            <mxPoint x="690" y="289"/>
+                            <mxPoint x="740" y="289"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="114" value="공유 하자신청" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;rounded=0;shadow=0;glass=0;comic=0;sketch=0;strokeColor=#f0f0f0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="370" y="380" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="370" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="115" target="216">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="610" y="500"/>
-                            <mxPoint x="890" y="500"/>
+                            <mxPoint x="610" y="510"/>
+                            <mxPoint x="890" y="510"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="115" value="개인 하자신청" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;rounded=0;shadow=0;glass=0;comic=0;sketch=0;strokeColor=#f0f0f0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="550" y="382" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="550" y="410" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;curved=1;dashed=1;" edge="1" parent="1" source="169" target="115">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="169" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;glass=0;comic=0;sketch=0;strokeColor=#f0f0f0;resizable=1;swimlaneLine=0;" vertex="1" parent="1">
-                    <mxGeometry x="740" y="360" width="140" height="104" as="geometry"/>
+                    <mxGeometry x="740" y="360" width="140" height="138" as="geometry"/>
                 </mxCell>
-                <mxCell id="170" value="신청 일자" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="169">
-                    <mxGeometry width="140" height="26" as="geometry"/>
+                <mxCell id="170" value="신청 일자&#10;     년&#10;     월&#10;     일" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="169">
+                    <mxGeometry width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="171" value="하자명" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="169">
-                    <mxGeometry y="26" width="140" height="26" as="geometry"/>
+                    <mxGeometry y="60" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="172" value="심각도" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="169">
-                    <mxGeometry y="52" width="140" height="26" as="geometry"/>
+                    <mxGeometry y="86" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="173" value="입주민 의견" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="169">
-                    <mxGeometry y="78" width="140" height="26" as="geometry"/>
+                    <mxGeometry y="112" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="185" value="" style="shape=link;html=1;rounded=0;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9">
                     <mxGeometry relative="1" as="geometry">
@@ -169,7 +178,7 @@
                     <mxGeometry x="1" relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="189" value="Inheritance(Disjoint)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;comic=0;sketch=0;" vertex="1" parent="1">
-                    <mxGeometry x="500" y="230" width="40" height="20" as="geometry"/>
+                    <mxGeometry x="500" y="250" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="190" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="114" target="93">
                     <mxGeometry relative="1" as="geometry">
@@ -204,26 +213,26 @@
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="320" y="128"/>
-                            <mxPoint x="320" y="460"/>
-                            <mxPoint x="520" y="460"/>
-                            <mxPoint x="520" y="412"/>
+                            <mxPoint x="320" y="480"/>
+                            <mxPoint x="500" y="480"/>
+                            <mxPoint x="500" y="440"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="177" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;rounded=0;shadow=0;glass=0;comic=0;sketch=0;strokeColor=#f0f0f0;resizable=1;swimlaneLine=0;" vertex="1" parent="1">
-                    <mxGeometry x="740" y="180" width="140" height="104" as="geometry"/>
+                    <mxGeometry x="740" y="180" width="140" height="138" as="geometry"/>
                 </mxCell>
-                <mxCell id="178" value="신청 일자" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="177">
-                    <mxGeometry width="140" height="26" as="geometry"/>
+                <mxCell id="178" value="신청 일자&#10;     년&#10;     월&#10;     일" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="177">
+                    <mxGeometry width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="179" value="하자명" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="177">
-                    <mxGeometry y="26" width="140" height="26" as="geometry"/>
+                    <mxGeometry y="60" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="180" value="심각도" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="177">
-                    <mxGeometry y="52" width="140" height="26" as="geometry"/>
+                    <mxGeometry y="86" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="181" value="대표자 의견" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="177">
-                    <mxGeometry y="78" width="140" height="26" as="geometry"/>
+                    <mxGeometry y="112" width="140" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="233" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;curved=1;" edge="1" parent="1" source="129" target="204">
                     <mxGeometry relative="1" as="geometry"/>
@@ -314,9 +323,9 @@
                         <mxPoint x="410" y="510" as="sourcePoint"/>
                         <mxPoint x="570" y="510" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="430" y="500"/>
-                            <mxPoint x="410" y="500"/>
-                            <mxPoint x="395" y="500"/>
+                            <mxPoint x="430" y="510"/>
+                            <mxPoint x="410" y="510"/>
+                            <mxPoint x="395" y="510"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -327,7 +336,7 @@
                     <mxGeometry x="590" y="600" width="80" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="223" value="Tenary&lt;br&gt;Relationship" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-                    <mxGeometry x="590" y="440" width="80" height="30" as="geometry"/>
+                    <mxGeometry x="610" y="460" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="225" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
                     <mxGeometry x="240" y="110" width="20" height="20" as="geometry"/>
