@@ -1,4 +1,4 @@
-# Code Explaination(Korean)
+# Code Explaination (Korean)
 
 src/main/java/com 패키지 안에
 
