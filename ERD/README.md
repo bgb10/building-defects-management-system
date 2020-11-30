@@ -1,4 +1,4 @@
-# ERD explaination
+# ERD
 
 ![ERD](./ERD.png)
 
