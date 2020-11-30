@@ -25,7 +25,7 @@ public class CreateTableExample {
             /* Set the query statement */
             /* Send query and get the result */
             int result = db_statement.executeUpdate();
-            System.out.println("Table Created: " + result);
+            System.out.println("Table Created");
         }catch (SQLException e) {
             e.printStackTrace();
         }
