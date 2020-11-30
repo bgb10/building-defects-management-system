@@ -1,6 +1,6 @@
 # ERD explaination
 
-[이곳](http://htmlpreview.github.io/?https://github.com/bgb10/building-defects-management-system/blob/master/ERD/ERD.html) 을 통해 ERD를 확인하실 수 있습니다.
+![ERD](./ERD.png)
 
 ## entity sets
 
@@ -45,4 +45,12 @@
 인테리어별로 시공한 내역이 반드시 한개는 존재합니다.
 
 하나의 인테리어는 여러개의 시공 내역이 존재합니다.
+
+### relationship / 공유 하자신청
+
+### relationship / 개인 하자신청
+
+### relationship / 공용공간 시공
+
+### relationship / 세대내부 시공
 
